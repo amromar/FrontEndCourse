@@ -20,6 +20,7 @@ body{
    text-align: center;
     display: grid;
     align-items: center;
+    background-attachment: fixed;
 }
 .nav{
     position: fixed;
@@ -118,13 +119,15 @@ nav ul li a:hover{
     color: #262726;
 }
 
-section{
-    padding: 4rem;
+#section_title{
+    font-size: 2rem;
     text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin-top: 100px;
 }
+
 section div{
    
     padding: 2rem;
@@ -153,6 +156,7 @@ section p{
 }
 .flex-container {
     display: flex;
+    
     flex-direction: row;
     font-size: 30px;
     text-align: center;
